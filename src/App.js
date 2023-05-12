@@ -6,8 +6,8 @@ function App() {
   const [file, setFile] = useState("");
   const [result, setResult] = useState("");
   const fileInputRef = useRef();
-  const logo =
-    "https://i.pinimg.com/originals/16/46/24/1646243661201a0892cc4b1a64fcbacf.jpg";
+  // const logo =
+  //   "https://i.pinimg.com/originals/16/46/24/1646243661201a0892cc4b1a64fcbacf.jpg";
 
   useEffect(() => {
     const getImage = async () => {
@@ -28,7 +28,8 @@ function App() {
 
   return (
     <div className="App">
-      <img src={logo} alt="banner" />
+      {/* <img src={logo} alt="banner" /> */}
+
       <div className="wrapper">
         <h1>Simple file sharing!</h1>
         <p>Upload and share the download link.</p>
